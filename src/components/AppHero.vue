@@ -18,11 +18,13 @@ export default {
   .pg-jumbotron{
     height: 300px;
     width: 300px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .pg-jumbotron img{
-    height: 100%;
+    height: 75%;
     will-change: filter;
     transition: filter 300ms;
   }
