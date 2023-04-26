@@ -1,5 +1,6 @@
 <script>
 export default {
+  name: "Jumbotron",
   data(){
     return{
       contentImg: "../public/vite.svg"
